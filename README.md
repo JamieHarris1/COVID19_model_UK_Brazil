@@ -1,1 +1,1 @@
-# Mathematical-model-for-the-Covid-19-for-both-the-UK-and-Brazi
+# Mathematical-model-of-Covid-19-for-both-the-UK-and-Brazi
