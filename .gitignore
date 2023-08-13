@@ -1,0 +1,17 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+...
+# Dependency management
+#######################
+node_modules/
+jspm_packages/
+bower_components/
+
+# Virtual environments
+######################
+venv/
+env/
+env.bak/
