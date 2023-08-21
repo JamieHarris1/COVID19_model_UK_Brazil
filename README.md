@@ -2,17 +2,11 @@
 
 Program to implement a various mathematical models for COVID19 in the Uk and Brazil
 
-## Table of Contents
-
-- [SIR model](##SIR model)
-- [Linear regression model](##Linear regression model)
-- [Gamma prior model](##Gamma prior model)
-
-
 ### SIR model
 
 - Divide people into 4 categories: Susceptible, Infected, Recovered, Dead
 - Use recurrence relations to model the population over discrete intervals
+  ![Screenshot](screenshots/screenshot.png)
 
 ### Linear regression model to estimate R parameter
 
