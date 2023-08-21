@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from covid19_model import covid19
 from utils.data import Data
-from utils.constants import UkParams as cs
-# from utils.constants import BrazilParams as cs
+# from utils.constants import UkParams as cs
+from utils.constants import BrazilParams as cs
 
 # Set the model parameters, UK
 cov = covid19.Covid(Rpar=cs.Rpar, Kf=cs.Kf, Pop=cs.pop, days=cs.dmax, I0=cs.I0, country=cs.country)  
