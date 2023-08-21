@@ -4,9 +4,9 @@ Program to implement a various mathematical models for COVID19 in the Uk and Bra
 
 ## Table of Contents
 
-- [SIR model](#SIR model)
-- [Linear regression model](#fLinear regression model)
-- [Gamma prior model](#Gamma prior model)
+- [SIR model](##SIR model)
+- [Linear regression model](##Linear regression model)
+- [Gamma prior model](##Gamma prior model)
 
 
 ## SIR model
