@@ -6,8 +6,6 @@ Program to implement a various mathematical models for COVID19 in the Uk and Bra
 
 - Divide people into 4 categories: Susceptible, Infected, Recovered, Dead
 - Use recurrence relations to model the population over discrete intervals
-  ![SIR_R1.71_tmax150.pdf]([plots/SIR_R1.71_tmax150.pdf](https://github.com/JamieHarris1/COVID19_model_UK_Brazil/blob/main/plots/SIR_R1.71_tmax150.pdf))
-  ![SIR_R4.6_tmax150.pdf](plots/SIR_R4.6_tmax150.pdf)
 
 ### Linear regression model to estimate R parameter
 
