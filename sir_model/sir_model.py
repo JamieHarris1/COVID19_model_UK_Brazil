@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from utils.constants import UkParams as cs
+from utils.constants import BrazilParams as cs
 
 class Covid19:
 	def __init__(self):
@@ -19,7 +19,7 @@ class Covid19:
 		plt.ylabel("I/R/F", fontsize=30)
 		plt.legend(loc='lower left',prop={'size': 20})
 		plt.tight_layout(rect=[0, 0, 0.99, 1], pad=0.5)
-		#plt.savefig("SIR_R{}_tmax{}.pdf".format(Rpar,tmax))
+		plt.savefig("plots/SIR_R{}_tmax{}.pdf".format(cs.Rpar,cs.tmax))
 		plt.show()
 
 	def main(self):

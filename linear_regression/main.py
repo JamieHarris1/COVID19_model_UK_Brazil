@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from utils.data import Data
-from utils.constants import UkParams as cs
+from utils.constants import BrazilParams as cs
 from linear_regression.functions import LinearRegression
 
 class Run:

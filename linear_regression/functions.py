@@ -42,7 +42,7 @@ class LinearRegression:
 
         plt.semilogy(self.data['Day'], self.data[self.column_name], "b*") # Plot data
         plt.semilogy(self.data['Day'], LinearRegression.func(self.data['Day'], A, lamb), 'r--')
-        #plt.savefig("Exponential_Fit_{}.pdf".format(country))
+        plt.savefig("plots/Exponential_Fit_{}.pdf".format(self.country))
         plt.show()
 
     def print_result(self, A: float, lamb: float):
