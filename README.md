@@ -1,6 +1,7 @@
 # COVID19_model_UK_Brazil
 
-(SEE ![https://github.com/JamieHarris1/COVID19_model_UK_Brazil/blob/main/Summary%20Document.pdf](SUMMARY DOCUMENT) FOR DETAILS)
+[![Summary Document](https://github.com/JamieHarris1/COVID19_model_UK_Brazil/blob/main/Summary%20Document.pdf)](https://github.com/JamieHarris1/COVID19_model_UK_Brazil/blob/main/Summary%20Document.pdf)
+
 
 
 Program to implement various mathematical models for COVID19 in the Uk and Brazil
