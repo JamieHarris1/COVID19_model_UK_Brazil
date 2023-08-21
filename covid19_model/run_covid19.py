@@ -1,24 +1,22 @@
-#Refrences
-#Bernard Piette and Kasper Peeters; Durham University; 2022
-
 import numpy as np
 import matplotlib.pyplot as plt 
-import covid19
+from covid19_model import covid19
+from utils.data import Data
+from utils.constants import UkParams as cs
+# from utils.constants import BrazilParams as cs
 
-dmax = 60 # The number of days to use for the integration
-cov = covid19.Covid(Rpar=1.71, Kf=0.01, Pop=209e6)  # Set the model parameters, UK
-
-# Set the initial condition and the maximum length of integrationnumber of
-cov.initialise(days=dmax, I0=16000) 
+# Set the model parameters, UK
+cov = covid19.Covid(Rpar=cs.Rpar, Kf=cs.Kf, Pop=cs.pop, days=cs.dmax, I0=cs.I0, country=cs.country)  
 
 # Read the experimetal data from a file
-cov.read_data("data_BR_tot.txt", "Brazil")
+cov.data = Data.load_data(f"utils/data_{cs.country}_tot.csv")
 
 # Plot the probability distributions
-#cov.plot_probabilities()
+cov.plot_probabilities()
 
-# Integrate the equations for the specific duration
-cov.iterate(dmax)
+# Interrate the population for the sepcified number of days
+for d in range(0, cs.dmax):
+	cov.step(d)
 
 # Generate figures
-cov.plot()
+cov.plot(data_c=False, data_f=True)
