@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from utils.constants import Params as cs
+from utils.constants import UkParams as cs
 
 class Covid19:
 	def __init__(self):
